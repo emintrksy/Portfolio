@@ -1,2 +1,2 @@
-# PragmatechFoundationProject
-İlk layihə üçün
+# Burda sizin reklamınız ola bilərdi.
+
