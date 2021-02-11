@@ -1,0 +1,2 @@
+# PragmatechFoundationProject
+İlk layihə üçün
