@@ -1,0 +1,30 @@
+#navbar{
+    display:flex
+}
+.mad-logo{
+    width:170px;height:85px;
+    padding-left: 14px;
+}
+.blackimage{
+   background-color: #1E1E1E;
+}
+.navbarmenu{
+    color:#e6e6e6;font-size:15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: end;
+}
+#ul-head-list{
+    display: flex;
+    padding-left: 85rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+#ul-head-list li{
+    list-style: none;
+    padding:0px 10px;
+    justify-content:space-between;
+}
+
+
