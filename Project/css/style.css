@@ -9,6 +9,11 @@
 .blackimage{
    background-image: url(../img/home.jpg);
    background-color: black;
+   height: 97vh;
+   
+   
+   
+  
 }
 .navbarmenu{
     color:#e6e6e6;font-size:15px;
@@ -34,9 +39,9 @@
     justify-content: center;
     justify-content:space-around;
     color: #fff;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
 
 }
 .bottom-word{
@@ -46,7 +51,29 @@
     font-size: 32px;
     color: #fff;
     margin-top: -70px;
+    padding-left: 30px;
 }
-.header{padding-top: 200px;}
+.header{
+    padding-top: 260px;
+    font-weight: 700;
+    font-size: 73px;
+    letter-spacing: 1px;
+    margin-bottom: 60px;
+}
+#list-icons{
+    list-style: none;
+    
+}
+ul li{
+    padding-top: 25px;
+}
+#bt-list{
+    text-align: right;
+padding-right: 50px;
+font-size: 22px;
+padding-top: 35px;
+}
+
+
 
 
