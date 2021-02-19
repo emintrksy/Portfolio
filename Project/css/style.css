@@ -2,15 +2,17 @@
     display:flex
 }
 .mad-logo{
-    width:170px;height:85px;
-    padding-left: 14px;
+    width:110px;height:26px;
+    padding-left: 42px;
+    padding-top:28px ;
 }
 .blackimage{
-   background-color: #1E1E1E;
+   background-image: url(../img/home.jpg);
+   background-color: black;
 }
 .navbarmenu{
     color:#e6e6e6;font-size:15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Poppins', sans-serif;
     display: flex;
     justify-content: end;
 }
@@ -25,6 +27,26 @@
     list-style: none;
     padding:0px 10px;
     justify-content:space-between;
+    
 }
+.mainpage-head{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+.bottom-word{
+    font-family:'Poppins',sans-serif ;
+    justify-content: center;
+    display:flex;
+    font-size: 32px;
+    color: #fff;
+    margin-top: -70px;
+}
+.header{padding-top: 200px;}
 
 
