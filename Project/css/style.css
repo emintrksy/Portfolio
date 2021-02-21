@@ -9,7 +9,13 @@
 .blackimage{
    background-image: url(../img/home.jpg);
    background-color: black;
-   height: 97vh;
+   height: 98vh;
+    padding-left: 0px;margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    width: 1903px;
+    padding-top: 8px;
    
    
    
@@ -73,6 +79,7 @@ padding-right: 50px;
 font-size: 22px;
 padding-top: 35px;
 }
+#box-size{height: 775px;}
 
 
 
