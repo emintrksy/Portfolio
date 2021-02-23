@@ -1,12 +1,13 @@
 /* About page-nin stylesi */
 .container{
     max-width: 1200px;
-    border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
+    height: 3000px;
+    bor
 }
 .about-page{
     display: flex;
@@ -25,6 +26,8 @@
 .lightbox-content{
     margin: 70px 0;
     box-sizing: border-box;
+    font-family:'Poppins', sans-serif; ;
+
 }
 .get-to-know{
     
@@ -33,24 +36,21 @@
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 50px;
+    font-family:'Poppins', sans-serif; ;
+    padding-top: 70px;
+    
 }
 .description{
     font-size: 15px;
-    margin-bottom: 17px;
+    margin-bottom: -25px;
     margin-top: 0px;
     text-align: center;
+
 }
 .description-title{
     font-size: 46px;
     margin-bottom: 37px;
     display: inline-block;
 }
-.animated-bar{
-    left: 8px;
-    -webkit-animation-duration:3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-name: barAnimation;
-    animation-name: barAnimation;
-    -webkit-animation-timing-function: linear;
-    
-}
+#black-dark{background-color: #111;}
+
