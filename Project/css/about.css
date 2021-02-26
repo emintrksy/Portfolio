@@ -272,20 +272,22 @@ margin-top: 4.4px;
     font-size: 58px;
     color: #009e66;
 }
-.testimotional-section{
-    margin-left: 23px;
-    margin-bottom: 120px;
+.testimonials-section{
+    display: flex;
 }
 .row-review{
-    width: 1170px;
+    width: 500px;
     height: 464px;
     font-size: 14px;
     background-color: #161616;
     padding: 48px 40px;
     text-align: left;
     user-select: none;
-    margin-top: 100px;
+    margin-top: 135px;
     margin-left: 21px;
+    height: 172px;
+    display: flex;
+    
 }
 .col-6-review1{
     margin-bottom: 23px;
@@ -337,7 +339,7 @@ margin-top: 4.4px;
     color: #009e66;
 }
 .review-content{
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 0;
     flex: none;
     text-align: left;
@@ -347,6 +349,113 @@ margin-top: 4.4px;
     color: #9f9f9f;
     font-weight: 400;
     line-height: 29.25 px;
+}
+.button-section{
+    flex: none;
+    width: 1170px;
+    height: 27.3px;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 120px;
+}
+.button-1{
+    background: #999;
+    border-radius: 50%;
+    height: 9px;
+    margin: 0 5px;
+    padding: 0;
+    width: 9px;
+}
+/* Pricing section */
+.pricing-section{
+    height: 692px;
+
+}
+.row-pricing{
+    height: 137.4;
+    font-family:'Poppins', sans-serif;
+}
+.row-pricing2{
+    height: 555.5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    padding-right: 27px;
+    padding-left: 19px;
+    line-height: 2;
+}
+.col-4{
+    width: 369px;
+    height: 555.5px;
+    padding: 0 15px ;
+    background-color: #161616;
+    border-right-width: 30px;
+    border-right-style: solid;
+    border-color: #101010;
+}
+.pricing-list{
+    list-style-type:  none;
+    height: 217px;
+    margin-bottom: 18px;
+    padding-left: 0px;
+    font-family:'Poppins', sans-serif;
+    color: #9f9f9f;
+    line-height: 2;
+    font-weight: 100;
+    size: 16px;
+    line-height: 45px;
+    word-spacing: 0,071em;
+    margin-bottom: 30px;
+}
+.btn-button{
+    background-color: #009e66 !important;
+    border: 1px solid #009e66  !important;
+    color: #212529;
+    border-radius: 30px;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+}
+.icon-price{
+    color: #009e66;
+    font-size: 54px;
+    display: block;
+    padding-bottom: 35px;
+}
+.single-plan{
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+.pricing-heading{
+    color: #f0f0f0;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    line-height: 1.2;
+    margin-top: 0;
+    font-family:'Poppins', sans-serif;
+}
+.pricing-money{
+    color: #f0f0f0;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 22px;
+    line-height: 1.2p;
+    margin-top: 0;
+    font-family:'Poppins', sans-serif;
+}
+.section-description-price{
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    ine-height: 100%;
+    margin-top: 0px;
+    color: #f0f0f0;
+}
+.section-title-pricing-p{
+    color: #9f9f9f;
 }
 
 
