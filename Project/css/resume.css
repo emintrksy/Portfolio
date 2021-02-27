@@ -1,0 +1,112 @@
+/* Resume Section */
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 3082px;
+}
+/* close-item */
+.close-item{
+    position: fixed;
+    right: 4vw;
+    z-index: 2;
+    width: 30px;
+    height: 20px;
+}
+.section-heading-resume{
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family:'Poppins', sans-serif; 
+    padding-top: 70px;
+    color: #9f9f9f;
+    
+}
+#section-resume{
+    background-color: #101010;
+}
+.section-title{
+    color: #f0f0f0;
+    font-size: 46px;
+    margin: 0px;
+}
+.section-description{
+    margin-top: 0px;
+}
+.row{
+    display: flex;
+    box-sizing: border-box;
+    height: 1870px;
+    padding-top: 114px;
+    margin-left: 11px;
+}
+.col-12{
+    width: 100%;
+    padding:0 15px;
+    padding-left: 0px;
+    margin-top: -92px;
+    
+}
+.row-heading{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 97px;
+}
+.education-title{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family:'Poppins', sans-serif; 
+    color: #f0f0f0;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 270px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+ .item-title{
+    font-size: 21px;
+    font-family:'Poppins', sans-serif; 
+    color: #f0f0f0; 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.resume-item{
+    width: 475px;
+    height: 118px;
+    padding:32px 48px;
+    font-family:'Poppins', sans-serif; 
+    color: #f0f0f0;
+    font-size: 14px;
+    line-height: 27px;
+    border-bottom: 1px solid #313131;
+    border-left: 2px solid #009e66
+}
+.col-6{
+    height: 550px;
+    background-color: #161616;
+    width: 570px;
+    border-right: 40px solid #101010;
+}
+.item-description{
+    margin: 0px;
+    color: #9f9f9f;
+    font-size: 15px;
+    
+}
+.item-details{
+    margin-bottom: 7px;
+    color: #9f9f9f;
+}
+.resume-section{
+    padding-left: 10px;
+    margin-bottom: 120px;
+    padding-top: 70px;
+    height: 600px;
+}

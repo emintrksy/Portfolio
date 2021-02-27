@@ -41,7 +41,7 @@
     margin-bottom: 50px;
     font-family:'Poppins', sans-serif; 
     padding-top: 70px;
-    color: azure;
+    color: #9f9f9f;
 }
 .description{
     font-size: 15px;
@@ -182,7 +182,7 @@
     margin-top: 0px;
     padding-top: 18px;
 }
-.list-inline-icons{
+.list-inline-icons {
     margin-right: 14px;
     font-size: 20px;
     
@@ -259,6 +259,9 @@ margin-right: 0px;
 margin-bottom: 30px;
 padding-bottom: 25px;
 margin-left: 21px;
+}
+.single-service:hover{
+    border-color: #009e66;
 }
 .service-title{
     color: #f3f3f3;
@@ -411,7 +414,7 @@ margin-top: 4.4px;
 .btn-button{
     background-color: #009e66 !important;
     border: 1px solid #009e66  !important;
-    color: #212529;
+    color: #fff;
     border-radius: 30px;
     padding: 10px 35px;
     text-decoration: none;
