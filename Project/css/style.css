@@ -8,18 +8,19 @@
 }
 .blackimage{
    background-image: url(../img/home.jpg);
-   background-color: black;
+   background-color: rgba(0,0,0,.4);
+   position: absolute;
    height: 98vh;
     padding-left: 0px;margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -8px;
-    margin-bottom: 0px;
-    width: 1903px;
-    padding-top: 8px;
-   
-   
-   
-  
+   margin: 0px;
+    width: 100%;
+   padding: 0px;
+   background-position: center center;
+    object-fit: cover;
+}
+#box-size{
+    margin: 0px;
+    width: 100%;
 }
 .navbarmenu{
     color:#e6e6e6;font-size:15px;
@@ -79,7 +80,7 @@ padding-right: 50px;
 font-size: 22px;
 padding-top: 35px;
 }
-#box-size{height: 775px;}
+#box-size{height: 100%;}
 
 
 
