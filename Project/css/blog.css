@@ -2,6 +2,7 @@
     background-color: #101010;
     margin: 0px;
     text-align: left;
+    
 }
 .container{
     max-width: 1200px;
@@ -10,7 +11,7 @@
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-    height: 3082px;
+    height: 1127px;
     max-width: 1200px;
     color: #9f9f9f;
     font-family: Poppins,sans-serif;
