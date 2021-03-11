@@ -1,465 +1,225 @@
 /* About page-nin stylesi */
 #black-dark{
     background-color: #111;
+    color: #9f9f9f;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.95;
 }
-.container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    height: 3082px;
-    
+.img-girl{
+    background-color: transparent;
+    border-color: rgba(0,0,0,.18);
+    width: 430px;
+    border: 1px solid #111111;
+    border-radius: .25rem;
+    height: auto;
+    max-width: 100%;
+    padding: .25rem;
+}
+.info-section{
+    margin-bottom: 120px;
 }
 .about-page{
-    display: flex;
-    margin-left: -15px;
-    margin-right: -15px;
-    box-sizing: border-box;
-}
-.about-me{
-    flex: 0 0 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
+    margin-bottom: 83px;
+    text-align: center;
 }
 .lightbox-content{
     margin: 70px 0;
-    box-sizing: border-box;
-    font-family:'Poppins', sans-serif; ;
-
 }
-.get-to-know{
-    
-    margin-left: -15px;
-    margin-right: -15px;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family:'Poppins', sans-serif; 
-    padding-top: 70px;
+.animated-bar ::after{
+    left: 0;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: barAnimation;
+    animation-timing-function: linear;
+    background-color: #101010;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+.section-description{
+    font-size: 15px;
+    line-height: 29.25px;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
     color: #9f9f9f;
 }
-.description{
-    font-size: 15px;
-    margin-bottom: -25px;
-    margin-top: 0px;
-    text-align: center;
-
-}
-.description-title{
+.section-title{
     font-size: 46px;
-    margin-bottom: 37px;
+    line-height: 100%;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    color: #f0f0f0;
     display: inline-block;
-    color: #fff;
-}
-.row-items-info{
-    display: flex;
-    width: 1200px;
-    height: 517px;
-   
-}
-.img-girl{
-    width: 100%;
-    border: 1px solid #dee2e6;
-}
-.col-5 {
-    width: 500px;
-    height: 525px;
-    padding:0px 15px;
-}
-.col-7{
-    width: 700px;
-    height: 480px;
-    padding: 0px 15px;
-}
-.content-block{
-    width: 670px;
-    height: 480px;
+    margin-bottom: 0px;
 }
 .content-subtitle{
     color: #009e66;
-    font-size: 24px;
-    margin-bottom: -60px;
+    line-height: 29px;
+    letter-spacing: normal;
     font-weight: 500;
-    font-family:'Poppins', sans-serif; 
-
+    margin-bottom: 15px;
+    font-size: 24px;
 }
 .content-title{
-    font-size: 31px;
+    line-height: 50px;
+    letter-spacing: normal;
     font-weight: 700;
-    line-height: 1.6;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
+    font-size: 31px;
     color: #f0f0f0;
-    font-family:'Poppins', sans-serif; 
-}
-.content-description{
-    font-size: 15px;
-    color: #9f9f9f;
-    line-height: 1.95;
-    font-family:'Poppins', sans-serif; 
-    
 }
 .description-p{
+    line-height: 29.25px;
+    letter-spacing: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 15px;
     border-bottom: 2px solid rgba(255,255,255,.08);
     margin-bottom: 0;
     padding-bottom: 29px;
-    margin-top: 0;
 }
 .content-info{
+    padding: 29px 0;
     font-size: 15px;
     margin-bottom: 4px;
-    padding: 29px 0;
-    font-style: normal;
-    color: #f0f0f0;
-    font-family:'Poppins', sans-serif; 
-    height: 99px;
-    
 }
-.row{
-    display: flex;
-    margin: 0px -15px;
-    height: 39px;
-    font-size: 15px;
-    font-style: normal;
-    color: #9f9f9f;
-    font-family:'Poppins', sans-serif;
+.single-info{
+    margin-bottom: 10px;
 }
-.info-name{
-    margin-right: 80px;
-    padding-right: 90px;
-    padding-left: 15px;
-
-}
-.info-email{
-    text-align: right;
-}
-#black-dark .container .info-section .row-items-info .info-image img{
-    background-color: transparent;
-    border-color: rgba(0,0,0,.18);
-    
-}
-.mail{
-    text-decoration: none;
-    color: #009e66;
-    transition: all .15s ease-in-out;
-}
-.from{
-    margin-left: 180px;
-    padding-left: 98px;
-}
-.align-items-center{
-    align-items: center !important;
-    height: 43px;
-}
-.d-sm-flex{
-    display: flex !important;
-    margin-top: -35px;
-}
-#black-dark .container .info-section .content-download{
-    margin-right: 23px;
-}
-.button-scheme{
+.button{
     background-color: #009e66 !important;
     border: 1px solid #009e66 !important;
     color: #fff;
     border-radius: 30px;
     font-size: 14px;
-    padding:10px 35px;
+    padding: 10px 35px;
+    margin-right: 23px;
     line-height: 1.5;
-    text-decoration: none;
-    font-family:'Poppins', sans-serif;
+    user-select: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    -webkit-user-select: none;
+    text-decoration: none;
 }
-#list-icons{
+.content-follow{
+    background-color: rgba(255,255,255,.25);
+    content: '';
+    height: 2px;
+    margin-right: 23px;
+    width: 60px;
+    margin-bottom: 0px;
     display: flex;
-    list-style: none;
-    width: 238px;
-    height: 22px;
-    margin-top: 0px;
-    padding-top: 18px;
+    align-items: center;
+    line-height: 100%;
 }
-.list-inline-icons {
-    margin-right: 14px;
-    font-size: 20px;
-    
-}
-/* Services-section */
-.services-section{
-    margin-bottom: 120px;
-    width: 1170px;
-    height: 670px;
-    margin-top: 132px;
-}
-.col-12{
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    box-sizing: border-box;
-    width: 1200px;
-    height: 170px;
+.list-inline-item{
+    font-size: 17px;
+    padding-left: 80px;
 }
 .section-heading{
     margin-bottom: 50px;
-    text-align: left;
-}
-.section-description{
-    margin-bottom: 17px;
-    margin-top: 0px;
-    line-height: 1.95;
-}
-.section-title{
-    display: inline-block;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 100%;
-    margin-bottom: 0;
-    position: relative;
-    color: #f0f0f0;
-    font-family:'Poppins', sans-serif;
-    margin-top: 0px;
-}
-.row .Services{
-    margin-left: 13px;
-}
-.row-icons{
-    width: 1258px;
-    height: 555px;
-    display: flex;
-    margin-left:-15px;
-    margin-right:-15px;
-    flex-wrap: wrap;
-}
-.col-lg-4{
-    flex: 0 0 33.33333%;
-  max-width: 33.33333%;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  color: #9f9f9f;
-  font-family:'Poppins', sans-serif;
 }
 .single-service{
     background-color: #161616;
-border-bottom: 2px solid transparent;
-box-shadow: 0 6px 16px rgba(0,0,0,.2);
-margin-bottom: 0px;
-padding: 38px 42px;
-transition: all .15s ease-in-out;
-color: #9f9f9f;
-font-family: Poppins,sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.95;
-margin-top: -30px;
-margin-right: 0px;
-margin-bottom: 30px;
-padding-bottom: 25px;
-margin-left: 21px;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 6px 16px rgba(0,0,0,.2);
+    margin-bottom: 30px;
+    padding: 10px 34px;
+    transition: all .15s ease-in-out;
 }
 .single-service:hover{
     border-color: #009e66;
 }
-.service-title{
-    color: #f3f3f3;
-font-size: 20px;
-font-weight: 500;
-letter-spacing: -.5px;
-margin-bottom: 14px;
-margin-top: 4.4px;
-}
-.single-service .css3{
+.icon-items{
+    color: #009e66;
     font-size: 58px;
-    color: #009e66;
+    margin-bottom: 22px;
 }
-.testimonials-section{
-    display: flex;
-}
-.row-review{
-    width: 500px;
-    height: 464px;
-    font-size: 14px;
-    background-color: #161616;
-    padding: 48px 40px;
-    text-align: left;
-    user-select: none;
-    margin-top: 135px;
-    margin-left: 21px;
-    height: 172px;
-    display: flex;
-    
-}
-.col-6-review1{
-    margin-bottom: 23px;
-    justify-content: space-between !important;
-    display: flex !important;
-    white-space: normal;
-}
-.media{
-    align-items: flex-start;
-    display: flex;
-    line-height: 1.95;
-    color: #9f9f9f;
+.service-title{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
     font-family:'Poppins', sans-serif;
+    color: #f0f0f0;
 }
-.julia-sakura{
-    width: 54px;
-    margin-right: 14px;
-    border-radius: 50% !important;
-}
-.review-header{
-    margin-bottom: 23px;
-    justify-content: space-between !important;
-    display: flex !important;
-    height: 54px;
-}
-.col-6-review1{
-    width: 490px;
-    height: 14px;
-    padding-right: 40px;
-    padding-bottom: 48px;
-    
-    
-}
-.client-details{
-    line-height: 100%;
-    align-self: center;
-}
-.client-name{
-    font-size: 15px;
-    margin-top: 6px;
-    margin-bottom: 12px;
-    color: #efefef;
-}
-.client-role{
-    color: #888;
-    font-size: 13px;
-}
-.review-header .media .css3{
-    color: #009e66;
-}
-.review-content{
-    font-size: 15px;
-    margin-bottom: 0;
-    flex: none;
-    text-align: left;
-    width: 490px;
-    height: 117px;
-    font-family:'Poppins', sans-serif;
-    color: #9f9f9f;
-    font-weight: 400;
-    line-height: 29.25 px;
-}
-.button-section{
-    flex: none;
-    width: 1170px;
-    height: 27.3px;
-    margin: 30px 0px 0px 0px;
-    text-align: center;
-    padding-left: 20px;
+.services-section{
     margin-bottom: 120px;
 }
-.button-1{
-    background: #999;
-    border-radius: 50%;
-    height: 9px;
-    margin: 0 5px;
-    padding: 0;
-    width: 9px;
+.review-header{
+    text-align: left;
+    user-select: none;
+    margin-bottom: 23px;
 }
-/* Pricing section */
-.pricing-section{
-    height: 692px;
-
-}
-.row-pricing{
-    height: 137.4;
-    font-family:'Poppins', sans-serif;
-}
-.row-pricing2{
-    height: 555.5px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1300px;
-    padding-right: 27px;
-    padding-left: 19px;
-    line-height: 2;
-}
-.col-4{
-    width: 369px;
-    height: 555.5px;
-    padding: 0 15px ;
+.single-review{
+    padding: 48px 41px;
     background-color: #161616;
-    border-right-width: 30px;
-    border-right-style: solid;
-    border-color: #101010;
 }
-.pricing-list{
-    list-style-type:  none;
-    height: 217px;
-    margin-bottom: 18px;
-    padding-left: 0px;
-    font-family:'Poppins', sans-serif;
-    color: #9f9f9f;
-    line-height: 2;
-    font-weight: 100;
-    size: 16px;
-    line-height: 45px;
-    word-spacing: 0,071em;
-    margin-bottom: 30px;
-}
-.btn-button{
-    background-color: #009e66 !important;
-    border: 1px solid #009e66  !important;
-    color: #fff;
-    border-radius: 30px;
-    padding: 10px 35px;
-    text-decoration: none;
-    font-family:'Poppins', sans-serif;
-}
-.icon-price{
+.icon-item{
     color: #009e66;
-    font-size: 54px;
-    display: block;
-    padding-bottom: 35px;
+    font-size: 50px;
+}
+.client-avatar{
+    margin-right: 14px;
+    width: 54px;
+}
+.client-name{
+    align-self: center;
+    line-height: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+.client-role{
+    line-height: 14px;
+}
+.button-section{
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+.button-1{
+    border: 0;
+border-radius: 50%;
+height: 9px;
+margin: 0 5px;
+padding: 0;
+width: 9px;
 }
 .single-plan{
-    padding: 50px 0;
-    text-align: center;
-    margin-bottom: 0 !important;
+    background-color: #161616;
+box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
+padding: 50px 0;
+text-align: center;
+margin-bottom: 50px;
+}
+.icon-price{
+   font-size: 54px;
+   font-weight: 400;
+   line-height: 100%;
+   color:#009e66 ;
 }
 .pricing-heading{
-    color: #f0f0f0;
     font-size: 26px;
     font-weight: 700;
-    margin-bottom: 14px;
     line-height: 1.2;
-    margin-top: 0;
-    font-family:'Poppins', sans-serif;
+    color: #f0f0f0;
+    margin-bottom: 14px;
 }
 .pricing-money{
-    color: #f0f0f0;
     font-size: 24px;
-    font-weight: 100;
-    margin-bottom: 22px;
-    line-height: 1.2p;
-    margin-top: 0;
-    font-family:'Poppins', sans-serif;
-}
-.section-description-price{
-    font-size: 38px;
-    font-weight: 700;
-    letter-spacing: -.25px;
-    ine-height: 100%;
-    margin-top: 0px;
+    font-weight: 300;
+    line-height: 1.2;
     color: #f0f0f0;
 }
-.section-title-pricing-p{
+.plan-list{
+    margin-bottom: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:27.3px;
+    color: #f0f0f0;
+}
+.plan-list li{
+    padding: 8px;
     color: #9f9f9f;
 }
-
-

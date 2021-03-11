@@ -28,7 +28,7 @@
 .lightbox-content{
     margin: 70px 0;
     box-sizing: border-box;
-    font-family:'Poppins', sans-serif; ;
+    font-family:'Poppins', sans-serif; 
 
 }
 .get-to-know{
@@ -61,7 +61,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.95;
-    height: 768px;
+    height: 150px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -108,14 +108,9 @@
     position: relative;
     margin-bottom: 25px;
     height: 44px;
+    
 }
-.col-6{
-    flex: 0 0 50%;
-    max-width: 50%;
-    position: relative;
-    margin-bottom: 25px;
-    height: 44px;
-}
+
 .col-11{
     flex: 0 0 100%;
     max-width: 92%;
