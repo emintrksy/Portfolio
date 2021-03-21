@@ -1,173 +1,186 @@
-/* Resume Section */
-.container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
-    height: 1750px;
-}
-/* close-item */
-.close-item{
-    position: fixed;
-    right: 4vw;
-    z-index: 2;
-    width: 30px;
-    height: 20px;
-}
-.section-heading-resume{
-    margin-left: -15px;
-    margin-right: -15px;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 50px;
-    font-family:'Poppins', sans-serif; 
-    padding-top: 70px;
+#black-dark{
+    background-color: #111;
     color: #9f9f9f;
-    
-}
-#section-resume{
-    background-color: #101010;
-    margin: 0px;
-}
-.section-title{
-    color: #f0f0f0;
-    font-size: 46px;
-    margin: 0px;
+    font-family: Poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.95;
 }
 .section-description{
-    margin-top: 0px;
+    font-size: 15px;
+    line-height: 29.25px;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    color: #9f9f9f;
 }
-.row{
-    display: flex;
-    box-sizing: border-box;
-    height: 1870px;
-    padding-top: 114px;
-    margin-left: 11px;
+.section-title{
+    font-size: 46px;
+    line-height: 100%;
+    letter-spacing: -0.25px;
+    font-weight: 700;
+    color: #f0f0f0;
+    display: inline-block;
+    margin-bottom: 37px;
 }
-.col-12{
-    width: 100%;
-    padding:0 15px;
-    padding-left: 0px;
-    margin-top: -92px;
-    
+.resume-title{
+    color: #f0f0f0;
 }
-.row-heading{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 97px;
+.lightbox-content{
+    margin: 70px 0;
+}
+.resume-page{
+    margin-bottom: 83px;
+    text-align: center;
 }
 .education-title{
     margin-bottom: 20px;
-    font-size: 25px;
-    font-family:'Poppins', sans-serif; 
+    font-size: 26px;
+    line-height: 31px;
     color: #f0f0f0;
-    margin-bottom: 10px;
-    position: absolute;
-    z-index: 2;
-    top: 270px;
-    padding-top: 40px;
-    margin-top: 0px;
 }
- .item-title{
-    font-size: 21px;
-    font-family:'Poppins', sans-serif; 
-    color: #f0f0f0; 
-    margin-top: 0px;
-    margin-bottom: 10px;
-    font-weight: 500;
-}
-.resume-item{
-    width: 475px;
-    height: 118px;
-    padding:32px 48px;
-    font-family:'Poppins', sans-serif; 
-    color: #f0f0f0;
-    font-size: 14px;
-    line-height: 27px;
-    border-bottom: 1px solid #313131;
-    border-left: 2px solid #009e66
-}
-.col-6{
-    height: 550px;
+.resume-block{
     background-color: #161616;
-    width: 570px;
-    border-right: 40px solid #101010;
+    border-left: 2px solid transparent;
+    border-left-color: #009e66;
+    padding: 32px 48px;
+    position: relative;
+    border-bottom: 1px solid #313131;
 }
-.item-description{
-    margin: 0px;
-    color: #9f9f9f;
-    font-size: 15px;
-    
-}
-.item-details{
+.resume-detail{
     margin-bottom: 7px;
-    color: #9f9f9f;
+}
+.experience-title{
+    margin-bottom: 20px;
+}
+.experience{
+    margin-right: 20px;
+}
+.education{
+    margin-right: 20px;
 }
 .resume-section{
-    padding-left: 10px;
-    padding-top: 70px;
-    height: 600px;
     margin-bottom: 120px;
 }
-.row-skills{
-    margin-right: -15px;
-    color: #9f9f9f;
-    font-family: Poppins,sans-serif;
-    font-weight: 400;
-    line-height: 1.95;
-    padding-bottom: -92px;
-    height: 137px;
-    
-}
-.title-skills{
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: -.25px;
-    line-height: 27.3px;
-    color:#9f9f9f;
+.section-heading{
     margin-bottom: 0px;
 }
-.skills-section{
-    height: 355px;
+.skill-section{
     margin-bottom: 120px;
-    padding-left: 25px;
 }
-.my-skills{
-    margin-top: 0px;
-    font-size: 38px;
-    font-family: Poppins,sans-serif;
-    color: #fff;
+.bar{
+    margin-bottom: 42px;
+    margin: 40px 0;
 }
-.row-skills-2{
-    font-family: Poppins,sans-serif;
-    height: 216.6px;
+.skill-bars{
+    padding: 0px 30px;
+    border-radius: 10px;
 }
-.video-section{
-    height: 320px;
-    font-family: Poppins,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.95;
-}
-.row-video{
-    display: flex;
-    height: 320px;
-}
-.col-6-text{
-    width: 50%;
-}
-.col-6-video{
-    width: 50%;
-}
-.video-title{
-    font-size: 31px;
-    color: #fff;
-    line-height: 41px;
-    font-weight: 600;
-}
-.video-description{
+.skill-bars .bar .info span{
+    font-weight: 500;
     font-size: 16px;
-    color: #9f9f9f;
-}
+    opacity: 0;
+    animation: showText 0.5s 1s linear forwards;
+    line-height: 31.2px;
+    font-weight: 400;
+    color: #cecece;
+    font-family:'Poppins', sans-serif;
+  }
+  @keyframes showText {
+    100%{
+      opacity: 1;
+    }
+  }
+  .skill-bars .bar .progress-line{
+    height: 9px;
+    width: 100%;
+    position: relative;
+    transform: scaleX(0);
+    transform-origin: right;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    background: #2f2f2f;
+  }
+  @keyframes animate {
+    100%{
+      transform: scaleX(1);
+    }
+  }
+  .bar .progress-line span{
+    height: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: #009e66;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  }
+  .bar .progress-line.html span{
+    width: 95%;
+  }
+  .bar .progress-line.web span{
+    width: 80%;
+  }
+  .bar .progress-line.js span{
+    width: 90%;
+  }
+  .bar .progress-line.react span{
+    width: 90%;
+  }
+  .bar .progress-line.mysql span{
+    width: 95%;
+  }
+  .bar .progress-line.python span{
+    width: 80%;
+  }
+  .progress-line span::before{
+    position: absolute;
+    content: "";
+    top: -10px;
+    right: 0;
+    height: 0;
+    width: 0;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  .progress-line span::after{
+    position: absolute;
+    top: -28px;
+    right: 0;
+    font-weight: 500;
+    
+    color: #fff;
+    padding: 1px 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+  }
+  @keyframes showText2 {
+    100%{
+      opacity: 1;
+    }
+  }
+  .progress-line.html span::after{
+    content: "95%";
+  }
+  .progress-line.web span::after{
+    content: "80%";
+  }
+  .progress-line.js span::after{
+    content: "90%";
+  }
+  .progress-line.react span::after{
+    content: "90%";
+  }
+  .progress-line.mysql span::after{
+    content: "95%";
+  }
+  .progress-line.python span::after{
+    content: "80%";
+  }
+  .video-title{
+      margin-bottom: 20px;
+  }
+ 
+  

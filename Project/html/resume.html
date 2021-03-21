@@ -10,127 +10,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Resume</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 
-<body id="section-resume">
+<body id="black-dark">
     <div class="container">
-        <!-- close-item sağda x düyməsi üçün olacaq -->
-        <div class="close-item">
-        </div>
+        <div class="lightbox-close"></div>
         <div class="row">
             <div class="col-12">
                 <div class="lightbox-content">
-                    <div class="row-heading">
+                    <div class="row">
                         <div class="col-12">
-                            <div class="section-heading-resume">
+                            <div class="resume-page">
                                 <p class="section-description">
                                     Check out my Resume
                                 </p>
                                 <h2 class="section-title">
                                     Resume
                                 </h2>
-                                <!-- animated-barda yaşıl xətt olacaq -->
-                                <div class="animated-bar"></div>
+                                <div class="animated-bar">
+                                    ::after ::before
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Resume Section -->
                     <div class="resume-section">
                         <div class="row">
-                            <!-- Education -->
-                            <div class="education-part">
-                                <div class="col-12 col-6">
-                                    <div class="col-6">
-                                        <h3 class="education-title font">
-                                            Education
-                                        </h3>
-                                        <div class="resume-item">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                Computer Science
-                                            </h5>
-                                            <span class="item-details">
-                                                Cambridge University / 2004 - 2007
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
-                                        <div class="resume-item">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                Bachelor Degree
-                                            </h5>
-                                            <span class="item-details">
-                                                University of Tokyo / 2008 - 2010
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
-                                        <div class="resume-item" style="border-bottom: 0px solid #101010;">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                Master Degree
-                                            </h5>
-                                            <span class="item-details">
-                                                Harvard University / 2012 - 2015
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
+                            <div class="col-12 col-md-6">
+                                <!-- Education -->
+                                <div class="education">
+                                    <h3 class="education-title">Education</h3>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">Computer Science</h5>
+                                        <span class="resume-detail">Cambridge University / 2004 - 2007</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
+                                    </div>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">Bachelor Degree</h5>
+                                        <span class="resume-detail">University of Tokyo / 2008 - 2010</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
+                                    </div>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">Master Degree</h5>
+                                        <span class="resume-detail">Harvard University / 2012 - 2015</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Experience part -->
-                            <div class="education-part">
-                                <div class="col-12 col-6">
-                                    <div class="col-6">
-                                        <h3 class="education-title font">
-                                            Experience
-                                        </h3>
-                                        <div class="resume-item">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                Software Engineer
-                                            </h5>
-                                            <span class="item-details">
-                                                Adobe / 2015 - 2017
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
-                                        <div class="resume-item">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                Back-End Developer
-                                            </h5>
-                                            <span class="item-details">
-                                                Google / 2017 - 2018
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
-                                        <div class="resume-item" style="border-bottom: 0px solid #101010;">
-                                            <span class="arrow"></span>
-                                            <h5 class="item-title font">
-                                                UI/UX Designer
-                                            </h5>
-                                            <span class="item-details">
-                                                Discord / 2019 - Present
-                                            </span>
-                                            <p class="item-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quo
-                                                repudiandae.
-                                            </p>
-                                        </div>
+                            <!-- Experience -->
+                            <div class="col-12 col-md-6">
+                                <!-- Experience -->
+                                <div class="experience">
+                                    <h3 class="experience-title">Experience</h3>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">Software Engineer</h5>
+                                        <span class="resume-detail">Adobe / 2015 - 2017</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
+                                    </div>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">Back-End Developer</h5>
+                                        <span class="resume-detail">Google / 2017 - 2018</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
+                                    </div>
+                                    <div class="resume-block">
+                                        <h5 class="resume-title">UI/UX Designer</h5>
+                                        <span class="resume-detail">Discord / 2019 - Present</span>
+                                        <p class="resume-description">Lorem ipsum dolor sit amet, consectetur
+                                            adipisicing elit. Optio quo repudiandae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -138,37 +90,92 @@
                     </div>
                     <!-- Skills Section -->
                     <div class="skills-section">
-                        <div class="row-skills">
+                        <div class="row">
                             <div class="col-12">
-                                <div class="heading-skills">
-                                    <p class="title-skills">
+                                <div class="section-heading">
+                                    <p class="section-description">
                                         My level of knowledge in some tools
                                     </p>
-                                    <h2 class="my-skills">
-                                        My Skills
-                                    </h2>
+                                    <h2 class="section-title" style="font-size: 38px;
+                                font-weight: 700;
+                                letter-spacing: -.25px;
+                                line-height: 100%;
+                                margin-bottom: 0;">My Skills</h2>
                                 </div>
                             </div>
                         </div>
-                        <div class="row-skills-2">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="skill-bars">
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">HTML/CSS</span>
+                                        </div>
+                                        <div class="progress-line html">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">Web Design</span>
+                                        </div>
+                                        <div class="progress-line web">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">Javascript</span>
+                                        </div>
+                                        <div class="progress-line js">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="skill-bars">
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">React JS</span>
+                                        </div>
+                                        <div class="progress-line react">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">MySQL</span>
+                                        </div>
+                                        <div class="progress-line mysql">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="bar">
+                                        <div class="info">
+                                            <span class="skill-name">Python</span>
+                                        </div>
+                                        <div class="progress-line python">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- Video Section -->
                     <div class="video-section">
-                        <div class="row-video">
-                            <div class="col-6-text">
-                                <h3 class="video-title">
-                                    Take a tour of my office
-                                </h3>
-                                <p class="video-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!
-                                </p>
-                                <p class="video-description">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.
-                                </p>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3 class="video-title">Take a tour of my office</h3>
+                                <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!</p>
+                                <p class="video-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.</p>
                             </div>
-                            <div class="col-6-video">
-                                <a class="videobox" href="https://www.youtube.com/watch?v=doteMqP6eSc"></a>
+                            <div class="col-12 col-md-6">          
+                                <video controls>
+                                    <source src="rabbit320.mp4" type="video/mp4">
+                                    <source src="https://www.youtube.com/watch?v=5qap5aO4i9A&ab_channel=LofiGirl" type="video/webm">
+                                  </div>
                             </div>
                         </div>
                     </div>
@@ -176,6 +183,7 @@
             </div>
         </div>
     </div>
+   
 </body>
 
 </html>
