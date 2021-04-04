@@ -1,0 +1,131 @@
+#section-portfolio{
+    background-color: #101010;
+    margin: 0px;
+    text-align: left;
+    
+}
+.closebox{
+    margin: 70px 0;
+    height: 990px;
+}
+
+.section-heading{
+    height: 134px;
+    margin-bottom: 84px;
+    text-align: center;
+    padding-right: 50px;
+}
+.section-description{
+    font-size: 15px;
+    margin-bottom: 17px;
+    margin-top: 0;
+    color: #9f9f9f;
+}
+.section-title{
+    font-size: 46px;
+    margin-bottom: 37px;
+    font-weight: 700;
+    letter-spacing: -.25px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #f0f0f0;
+    margin-top: -15px;
+    font-family:'Poppins', sans-serif; 
+}
+.portfolio{
+    height: 771px;
+}
+.img-all{
+    width: 100%;
+    object-fit: cover;
+}
+.col-sm-8{
+    margin-bottom: 30px;
+}
+.navbar{
+    justify-content: center  !important;
+    list-style: none;
+}
+.navbar-item{
+    margin-right: 25px;
+    cursor: pointer;
+    border-bottom: #00bd7a;
+    color:#fff;
+    border-bottom: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    position: relative;
+    transition: all .1s ease-in-out;
+}
+.navbar-item:hover{
+    color: #00bd7a;
+    transition:all .1s ease-in-out;
+    
+}
+.animation-bar::after,
+.animation-bar::before{
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: barAnimation;
+    animation-timing-function: linear;
+    background-color: #1d1212;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    
+}
+
+  
+.animation-bar::before {
+    left: 8px;
+}
+.animation-bar::after {
+    left: 0;
+}
+.animation-bar{
+    content: '';
+    display: block;
+     height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+    background-color: #009e66;
+}
+.img-all:hover{
+    color: blue;
+}
+.portfolio-jpg{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.9)
+}
+.portfolio-jpg:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .text {
+    color: #009e66;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

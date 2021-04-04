@@ -183,4 +183,21 @@
       margin-bottom: 20px;
   }
  
+  .resume-page .animated-bar{
+    content: '';
+    display: block;
+     height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+    background-color: #009e66;
+  }
+  .resume-page .animated-bar ::after {
+    left: 0;
+}
+.resume-page .animated-bar ::before {
+    left: 8px;
+}
   

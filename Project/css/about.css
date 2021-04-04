@@ -54,7 +54,7 @@
     font-weight: 700;
     color: #f0f0f0;
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 37px;
 }
 .content-subtitle{
     color: #009e66;
@@ -188,10 +188,10 @@ width: 9px;
 }
 .single-plan{
     background-color: #161616;
-box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
-padding: 50px 0;
-text-align: center;
-margin-bottom: 50px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.05);
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 50px;
 }
 .icon-price{
    font-size: 54px;
@@ -222,4 +222,39 @@ margin-bottom: 50px;
 .plan-list li{
     padding: 8px;
     color: #9f9f9f;
+}
+
+
+.about-page .animated-bar::after,
+.about-page .animated-bar::before{
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: barAnimation;
+    animation-timing-function: linear;
+    background-color: #1d1212;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 4px;
+    
+}
+
+  
+.about-page .animated-bar::before {
+    left: 8px;
+}
+.about-page .animated-bar::after {
+    left: 0;
+}
+.about-page .animated-bar{
+    content: '';
+    display: block;
+     height: 4px;
+    left: 0;
+    margin: 0 auto 0 auto;
+    position: relative;
+    right: 0;
+    width: 75px;
+    background-color: #009e66;
 }
