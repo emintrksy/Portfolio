@@ -10,7 +10,7 @@
     width: 110px;
     height: auto;
     max-width: 100%;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 15px;
 }
 .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
@@ -33,7 +33,7 @@
     width: 100%;
 }
 .home-area{
-    background-image: url(../img/home.jpg);
+    background-image: url(../img/mrdongok--CB10MOyIJA-unsplash.jpg);
     background-color: #111;
     background-position: center center;
     height: 100vh;
@@ -59,4 +59,40 @@
     font-weight: 400;
     letter-spacing: .3px;
     margin-bottom: 0;
+}
+.social-icons{
+    margin: 0 50px;
+    position: relative;
+}
+.lang{
+    bottom: 35px;
+    position: absolute;
+}
+.lang-list{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.language{
+    transform: rotate(90deg);
+    color: #e6e6e6;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.icons{
+    bottom: 34px;
+    position: absolute;
+    right: 0;
+}
+.icons-items{
+    list-style: none;
+}
+.style-icon{
+    font-size: 20px;
+    color: #fff;
+}
+.collapse .navbar-design{
+    padding-bottom: 50px;
+    padding-right: 30px;
 }
