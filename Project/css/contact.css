@@ -55,6 +55,7 @@
     font-size: 15px;
     height: 44px;
     padding: 9px 0px;
+    padding-left: 14px;
     opacity: 1;
     color: #777;
     font-family: 'Poppins',sans-serif;
@@ -176,5 +177,8 @@ color: #009e66;
   }
   .close:after {
     transform: rotate(-45deg);
+  }
+  .row .resize:focus{
+    border-bottom: 1px solid #00d187;
   }
   
