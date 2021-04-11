@@ -46,18 +46,7 @@
     justify-content: center  !important;
     list-style: none;
 }
-.navbar-item{
-    margin-right: 25px;
-    cursor: pointer;
-    border-bottom: #00bd7a;
-    color:#fff;
-    border-bottom: 1px solid transparent;
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: .3px;
-    position: relative;
-    transition: all .1s ease-in-out;
-}
+
 .navbar-item:hover{
     color: #00bd7a;
     transition:all .1s ease-in-out;
@@ -99,9 +88,7 @@
 .img-all:hover{
     color: blue;
 }
-.portfolio-jpg{
-    position: relative;
-}
+
 .overlay{
     position: absolute;
     top: 0;
@@ -154,4 +141,37 @@
   }
   .close:after {
     transform: rotate(-45deg);
+  }
+  .column {
+    float: left;
+    display: none; 
+    position: relative;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    
+  }
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  .show {
+    display: block;
+  }
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
   }

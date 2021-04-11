@@ -36,77 +36,112 @@
                             <div class="row">
                                 <div class="col-12">
                                     <ul class="navbar">
-                                        <li class="navbar-item">All</li>
-                                        <li class="navbar-item">Brand</li>
-                                        <li class="navbar-item">Design</li>
-                                        <li class="navbar-item">Photos</li>
+                                        <div id="myBtnContainer">
+                                            <button class="btn active" onclick="filterSelection('all')"> All</button>
+                                            <button class="btn" onclick="filterSelection('brand')"> Brand</button>
+                                            <button class="btn" onclick="filterSelection('design')"> Design</button>
+                                            <button class="btn" onclick="filterSelection('photos')"> Photos</button>
+                                          </div>
                                     </ul>
                                 </div>
 
                             </div>
                             <div class="row">
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-1.jpg" alt="1" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    Label Tag Mockup
-                                                </div>
-                                            </div>
+                                <div class="column brand show portfolio-jpg">
+                                    <img class="img-all" src="../img/item-1.jpg" alt="1" onclick="imgclick">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            Label Tag Mockup
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-2.jpg" alt="2" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    3D Bag Mockup
-                                                </div>
-                                            </div>
+                                <div class="column brand show portfolio-jpg">
+                                    <img class="img-all" src="../img/item-2.jpg" alt="2" onclick="imgclick">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            3D Bag Mockup
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="column design show portfolio-jpg">
+                                <img class="img-all" src="../img/item-3.jpg" alt="3" onclick="imgclick">
+                                <div class="overlay">
+                                    <div class="text">
+                                       Modern Bag Design
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-3.jpg" alt="3" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                   Modern Bag Design
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-4.jpg" alt="" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    Coffee Cup Design
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-5.jpg" alt="" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    T-Shirt Design
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-8 col-lg-4">
-                                    <div class="portfolio-jpg">
-                                            <img class="img-all" src="../img/item-6.jpg" alt="" onclick="imgclick">
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    Packaging box Mockup
-                                                </div>
-                                            </div>
-                                    </div>
+                        </div>
+                        <div class="column design show portfolio-jpg">
+                            <img class="img-all" src="../img/item-4.jpg" alt="" onclick="imgclick">
+                            <div class="overlay">
+                                <div class="text">
+                                    Coffee Cup Design
                                 </div>
                             </div>
+                    </div>
+                    <div class="column photos show portfolio-jpg">
+                        <img class="img-all" src="../img/item-5.jpg" alt="" onclick="imgclick">
+                        <div class="overlay">
+                            <div class="text">
+                                T-Shirt Design
+                            </div>
                         </div>
+                </div>
+                                <div class="column photos show portfolio-jpg">
+                                    <img class="img-all" src="../img/item-6.jpg" alt="" onclick="imgclick">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            Packaging box Mockup
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                        <script>
+                            filterSelection("all")
+                            function filterSelection(c) {
+                              var x, i;
+                              x = document.getElementsByClassName("column");
+                              if (c == "all") c = "";
+                              for (i = 0; i < x.length; i++) {
+                                RemoveClass(x[i], "show");
+                                if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+                              }
+                            }
+                            
+                            function AddClass(element, name) {
+                              var i, arr1, arr2;
+                              arr1 = element.className.split(" ");
+                              arr2 = name.split(" ");
+                              for (i = 0; i < arr2.length; i++) {
+                                if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                              }
+                            }
+                            
+                            function RemoveClass(element, name) {
+                              var i, arr1, arr2;
+                              arr1 = element.className.split(" ");
+                              arr2 = name.split(" ");
+                              for (i = 0; i < arr2.length; i++) {
+                                while (arr1.indexOf(arr2[i]) > -1) {
+                                  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                                }
+                              }
+                              element.className = arr1.join(" ");
+                            }
+                            
+                            
+                            // Add active class to the current button (highlight it)
+                            var btnContainer = document.getElementById("myBtnContainer");
+                            var btns = btnContainer.getElementsByClassName("btn");
+                            for (var i = 0; i < btns.length; i++) {
+                              btns[i].addEventListener("click", function(){
+                                var current = document.getElementsByClassName("active");
+                                current[0].className = current[0].className.replace(" active", "");
+                                this.className += " active";
+                              });
+                            }
+                            </script>
     </body>
 
 </html>
